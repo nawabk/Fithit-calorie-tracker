@@ -1,0 +1,32 @@
+.Suggestions{
+    list-style: none;
+}
+.Suggestions li{
+    
+    margin-top:10px;
+}
+.Suggestions button{
+    float: right;
+    margin-right: 4px;
+}
+
+.Placeholder{
+    
+    font-weight: bold;
+}
+
+.Placeholder input{
+    width:20%;
+    margin-right:10px;
+}
+
+.Placeholder select{
+    height:29px ;
+}
+.Placeholder span{
+    display:block;
+    margin: 5px;
+    font-weight: bold;
+    color:#138496;
+    
+}

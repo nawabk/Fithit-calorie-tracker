@@ -1,0 +1,39 @@
+
+.AddButton{
+    transition: .2s all ease-in;
+    margin-left:120px;
+    left:30%;
+    top:30%;
+    display:inline-block;
+    box-sizing: border-box;
+    text-align:center;
+    
+}
+.AddButton:first-child{
+    margin-top:100px;
+}
+.AddButton label{
+    display:block;
+    text-align:center;
+    text-transform: uppercase;
+    color:#ccc;
+}
+.AddButton img{
+    width:70%;
+    height: 50%;
+    border-radius: 50%;
+}
+.Bottom{
+    margin-left:120px;
+    margin-top:20px;
+}
+.AddButton:hover{
+    transform: translateY(-3px) scale(1.1);
+    
+    cursor:pointer;
+}
+
+.MealPlace{
+    background: linear-gradient(to right,#313131bd,#414141);
+    
+}

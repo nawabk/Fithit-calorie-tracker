@@ -1,0 +1,16 @@
+.FoodTracker{
+    margin-left:12px;
+    width:100%;
+}
+.FoodTracker form{
+    width:50%;
+}
+.FoodTracker .MealDetails{
+    float:right;
+    text-transform: capitalize;
+    margin-right: 20px;
+    width:30%;
+}
+.FoodTracker .MealDetails p{
+    margin:5px;
+}

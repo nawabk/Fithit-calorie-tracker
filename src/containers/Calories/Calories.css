@@ -1,0 +1,39 @@
+
+.Calories{
+    margin: 20px 40px;
+    z-index: 100;
+}
+
+.Form{
+    border:1px solid rgb(197, 195, 195);
+    box-shadow: 0 15px 15px #ccc;
+    padding:20px;
+    position: relative;
+    margin-bottom:20px;
+}
+
+
+.InvalidMessage{
+    text-transform: uppercase;
+    position: absolute;
+    top:90%;
+    left:150px;
+    color:#ff3301;
+    animation: invalidMessage .4s ease-out;
+    font-size:25px;
+     
+}
+
+@keyframes invalidMessage{
+    0%{
+        opacity: 0;
+        transform: translateX(-7rem); 
+    }
+    80%{
+        opacity: .8;
+        transform: translateX(2rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}

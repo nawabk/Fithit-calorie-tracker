@@ -1,0 +1,25 @@
+.CalorieIntake{
+    border:1px solid rgb(197, 195, 195);
+    box-shadow: 0 15px 20px #ccc;
+    box-sizing: border-box;
+    display:inline-block;
+    padding:20px;
+    width: 100%;
+    transform: translateY(100vh);
+    opacity:0;
+}
+.CalorieIntakeShowing{
+    transition: all 1s;
+    transform:translateY(0);
+    opacity:1;
+}
+@keyframes moveInBottom{
+    0%{
+        transform:translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateY(0);
+        opacity:1;
+    }
+}

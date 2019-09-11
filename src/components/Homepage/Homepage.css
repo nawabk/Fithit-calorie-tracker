@@ -1,0 +1,109 @@
+.header{
+    height:450px;
+    width:100%;
+    background: linear-gradient(to right,#000,#252525cb);
+    position: relative;
+    
+}
+/* .heading-primary--main{
+    display:block;
+    position:absolute;
+    left:50px;
+    color:white;
+    top:100px;
+    font-size:80px;
+    position: relative;
+}
+.heading-secondary--sub{
+    color:white;
+    position: absolute;
+    left:50px;
+    top:200px;
+} */
+.heading-primary {
+    color:white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem; 
+    position: absolute;
+    top:150px;
+    left:150px;
+    
+}
+    .heading-primary--main {
+      display: block;
+      font-size: 60px;
+      font-weight: 400;
+      letter-spacing: 35px;
+      animation-name: moveInLeft;
+      animation-duration: 1s;
+      
+      
+     }
+    .heading-primary--sub {
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      animation: moveInRight 1s ease-out; 
+      
+    }
+    .hero-image{
+        width:49.5%;
+       float:right;
+       transform:translateX(12rem);
+       animation: imageAnimation 1s ease-out;
+       overflow: hidden;
+       
+    }
+
+    .info-button{
+        position: absolute;
+        top:310px;
+        left:250px;
+        animation:moveInDown .6s ease-in;
+        animation-delay: .75s;
+        animation-fill-mode: backwards;
+    }
+
+    @keyframes moveInLeft{
+        0%{
+            opacity: 0;
+            transform: translateX(-10rem);
+        }
+        100%{
+            opacity: 1;
+            transform: translate(0);
+        }
+    }
+    @keyframes moveInRight{
+        0%{
+            opacity: 0;
+            transform:translateX(10rem);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes imageAnimation{
+        0%{
+            filter:blur(10px);
+            transform:translateX(12rem)scale(.9);
+        }
+        100%{
+            filter:blur(0);
+            transform:translate(12rem) scale(1);
+        }
+    }
+    @keyframes moveInDown{
+        0%{
+            opacity: 0;
+            transform:translateY(20px);
+        }
+        100%{
+            opacity: 1;
+            transform:translateY(0);
+        }
+    }
